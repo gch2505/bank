@@ -1,12 +1,12 @@
 //  Node의 표준내장모듈(readline) 활용하여 키보드 입력 받기
 
-// readline 표준 내장 모듈은 한 번에 한 줄씩 process.stdin 스트림에서 
+// readline 표준 내장 모듈은 한 번에 한 줄씩 process.stdin 스트림에서
 // 데이터를 읽기 위한 인터페이스를 만들 수 있는 기능을 제공한다.
 const readline = require("readline");
 
 const consoleInterface = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
+  input: process.stdin,
+  output: process.stdout,
 });
 
 // 이벤트 기반 한줄 입력 받기
